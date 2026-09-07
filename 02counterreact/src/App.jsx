@@ -7,11 +7,11 @@ import './App.css'
 function App() {
   
 let [counter,setCounter] = useState(0)
-// let counter = 23;
 const addValue = ()=>{
   
   counter = counter +1;
   setCounter(counter);
+  if(counter  >= 10) setCounter(0);
   console.log("button is clicked",counter);
  }
  const removeValue = ()=>{
@@ -22,7 +22,7 @@ const addValue = ()=>{
   return (
     <>
       <h1>chai aur react</h1>
-      <h2> counter value{counter}</h2>
+      <h2> counter value: {counter}</h2>
       <button
       onClick={addValue}
       >add value</button>
