@@ -1,11 +1,14 @@
-import { useState } from 'react'
-import Web from './components/webPage';
+// import Web from './components/webPage';
 import './App.css'
-import Button from './components/Button';
-import Student from './components/Student';
-import Counter from './components/Counter';
-import ShowHidePassword from './components/Showhidepassword';
-import Likecounter from './components/Likecounter';
+// import Button from './components/Button';
+// import Student from './components/Student';
+// import Counter from './components/Counter';
+// import ShowHidePassword from './components/Showhidepassword';
+// import Likecounter from './components/Likecounter';
+// import Toggle  from './components/Toggle';
+// import Backgroundtextchanger from './components/Backgroundtextchanger';
+// import Charcounter from './components/Charcounter';
+import Updatelist from './components/Updatelist';
 
 function App() {
  
@@ -13,7 +16,7 @@ function App() {
   return (
     <>
     {/* <Web myName = "Anas" /> */}
-    <Button 
+    {/* <Button 
     text="Sign Up"
     backgroundColor="bg-green-500"
     textColor="text-black"
@@ -30,6 +33,11 @@ function App() {
 
         <ShowHidePassword/>
         <Likecounter/>
+        <Toggle/>
+        <Backgroundtextchanger/>
+        <Charcounter/> */}
+
+        <Updatelist/>
     </>
   );
 }
