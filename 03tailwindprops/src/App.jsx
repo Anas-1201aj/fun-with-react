@@ -1,8 +1,13 @@
 // import Web from './components/webPage';
 import './App.css'
+import Employees from './components/Employees';
+import FetchUsers from './components/FetchUsers';
 import FormToAddExistingUser from './components/FormToAddExistingUser';
 import Formtoaddproduct from './components/Formtoaddproduct';
 import Login from './components/Login';
+import ProductList from './components/ProductList';
+import SearchByFilter from './components/SearchByFilter';
+import ShoppingCart from './components/ShoppingCart';
 import TodoApplication from './components/TodoApplication';
 // import Button from './components/Button';
 // import Student from './components/Student';
@@ -10,7 +15,7 @@ import TodoApplication from './components/TodoApplication';
 // import ShowHidePassword from './components/Showhidepassword';
 // import Likecounter from './components/Likecounter';
 // import Toggle  from './components/Toggle';
-// import Backgroundtextchanger from './components/Backgroundtextchanger';
+import Backgroundtextchanger from './components/Backgroundtextchanger';
 // import Charcounter from './components/Charcounter';
 import Updatelist from './components/Updatelist';
 
@@ -46,7 +51,14 @@ function App() {
         {/* <Formtoaddproduct/> */}
         {/* <FormToAddExistingUser/>
          */}
-         <TodoApplication/>
+         {/* <TodoApplication/> */}
+
+         {/* <SearchByFilter/> */}
+         {/* <ProductList/> */}
+         <FetchUsers/>
+ {/* <ShoppingCart/>  */}
+{/* <Backgroundtextchanger/> */}
+{/* <Employees/> */}
     </>
   );
 }

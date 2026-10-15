@@ -13,13 +13,6 @@ function Updatelist() {
   return (
     <div className='w-full'>
 
-<div className="max-w-full">
-   <ul className= 'flex gap-2'>
-        {item.map((value,index)=>(
-          <li key = {index}>{value}</li>
-        ))}
-      </ul>
-</div>
      
       <input
 
@@ -42,6 +35,14 @@ function Updatelist() {
         </button>
     </div>
 
+<div className="max-w-full">
+   <ul className= 'flex gap-2'>
+        {item.map((value,index)=>(
+          <li key = {index}>
+            {value}</li>
+        ))}
+      </ul>
+</div>
 
     </div>
   )
